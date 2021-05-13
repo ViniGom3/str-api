@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_benefits",
+  "info": {
+    "name": "benefits",
+    "icon": "wine-glass"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
