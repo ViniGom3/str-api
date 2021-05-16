@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_reviews",
   "info": {
     "name": "sectionReviews",
-    "icon": "star"
+    "icon": "star",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,23 +14,9 @@
       "min": 4,
       "required": true
     },
-    "name": {
+    "title": {
       "type": "string",
       "required": true
-    },
-    "text": {
-      "type": "text",
-      "required": true
-    },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
     }
   }
 }
